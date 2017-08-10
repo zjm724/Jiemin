@@ -27,7 +27,8 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Jiemin Zhang"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/textView"
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:elevation="10dp"
         android:text="jieminz@mtu.edu"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
 
 </LinearLayout>
