@@ -3,6 +3,10 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="skills">Technical Skills</string>
+    <string name="fun">Just For Fun</string>
+    <string name="about_me">About Me</string>
+    <string name="contact_me">Contact Me</string>
 
     <string name="action_settings">Settings</string>
 </resources>
