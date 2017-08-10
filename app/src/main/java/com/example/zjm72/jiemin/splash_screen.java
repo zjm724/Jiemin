@@ -24,7 +24,6 @@ public class splash_screen extends AppCompatActivity {
 
 
 
-
         View decorView = getWindow().getDecorView();
 // Hide both the navigation bar and the status bar.
 // SYSTEM_UI_FLAG_FULLSCREEN is only available on Android 4.1 and higher, but as
@@ -35,20 +34,32 @@ public class splash_screen extends AppCompatActivity {
         decorView.setSystemUiVisibility(uiOptions);
 
 
+        // AlphaAnimation defined:
+        AlphaAnimation alphaAnimation = new AlphaAnimation(0.0f, 1.0f);
+        alphaAnimation.setDuration(2000);
+        alphaAnimation.getInterpolator();
+        alphaAnimation.setFillAfter(true);
+
+
+        TextView textView = (TextView) findViewById(R.id.welcome_screen_text);
+        textView.setVisibility(View.VISIBLE);
+        textView.startAnimation(alphaAnimation);
+
+
+
+        ImageView imageView = (ImageView) findViewById(R.id.signature_image);
+        imageView.setVisibility((View.VISIBLE));
+        imageView.startAnimation(alphaAnimation);
+
+
+
+
         Thread MyThread = new Thread(){
 
             @Override
             public void run() {
                 try {
                     sleep(5000);
-
-
-                    TextView textView = (TextView) findViewById(R.id.welcome_screen_text);
-
-                    ImageView imageView = (ImageView) findViewById(R.id.signature_image);
-
-
-
 
                     Intent intent = new Intent(getApplicationContext(), MainActivity.class);
 
