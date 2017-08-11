@@ -6,7 +6,7 @@
     android:layout_width="750dp"
     android:layout_gravity="right"
     android:background="@drawable/splash_screen_android"
-    tools:context="com.example.zjm72.jiemin.splash_screen">
+    tools:context="com.jiemin.zjm72.jiemin.splash_screen">
 
 
     <TextView
