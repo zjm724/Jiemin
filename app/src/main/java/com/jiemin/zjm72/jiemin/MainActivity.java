@@ -106,9 +106,6 @@ public class MainActivity extends AppCompatActivity
 
 
 
-
-
-
             // Create a new fragment and specify the planet to show based on position
             fragmentClass = fragment_about_me.class;
             try {
@@ -128,6 +125,29 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_projects) {
+
+
+            // Handle click "projects" action
+
+            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+            toolbar.setTitle("Projects");
+
+
+
+            // Create a new fragment and specify the planet to show based on position
+            fragmentClass = fragment_project.class;
+            try {
+                fragment = (Fragment) fragmentClass.newInstance();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            // Insert the fragment by replacing any existing fragment
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+
+            // Highlight the selected item, update the title, and close the drawer
 
         } else if (id == R.id.nav_educations) {
 

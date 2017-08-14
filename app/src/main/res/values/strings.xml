@@ -12,8 +12,8 @@
 
     <string name="welcome_screen_text">Welcome to my Android mobile app.</string>
     <string name="about_me_header_pic">About me header picture</string>
-    <string name="about_me_text_p1">Hello! My name is Jiemin, and I am a die-hard mobile developer.</string>
+    <string name="about_me_text_p1">Hello! My name is Jiemin, and I am a software developer.</string>
     <string name="about_me_text_p2">I have a bachelor degree in CS and a Master degree in ECE in Michigan. I was both TA and RA during my graduate school time.</string>
     <string name="about_me_text_p3">I am master in C and Java, especially Android. Familiar with whole mobile app development process, app structure and details to implement functionalities.</string>
-    <string name="about_me_text_end">Again, welcome to my mobile app and you can check those subsections on the left for details.</string>
+    <string name="about_me_text_end">Again, welcome to my mobile app and you can swipe on the left edge or click icon on left-top corner to check those subsections for details.</string>
 </resources>
