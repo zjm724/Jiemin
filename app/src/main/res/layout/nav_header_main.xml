@@ -15,16 +15,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:src="@drawable/portrait" />
+        android:src="@drawable/portrait_round_transparent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="10dp"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Jiemin Zhang"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
@@ -35,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="10dp"
-        android:text="jieminz@mtu.edu"
+        android:text="@string/software_title"
         android:textColor="@color/black"
         android:textStyle="bold"/>
 

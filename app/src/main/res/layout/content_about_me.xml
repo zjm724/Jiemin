@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_about_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jiemin.zjm72.jiemin.MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/about_me_header_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/about_me_header_pic"
+        android:src="@drawable/about_me_header_bg_1" />
+
+    <TextView
+        android:id="@+id/about_me_text_p1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:fontFamily="monospace"
+        android:text="@string/about_me_text_p1"
+        android:layout_below="@id/about_me_header_pic" />
+
+    <TextView
+        android:id="@+id/about_me_text_p2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:fontFamily="monospace"
+        android:text="@string/about_me_text_p2"
+        android:layout_below="@id/about_me_text_p1" />
+
+    <TextView
+        android:id="@+id/about_me_text_p3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:fontFamily="monospace"
+        android:text="@string/about_me_text_p3"
+        android:layout_below="@id/about_me_text_p2"/>
+
+    <TextView
+        android:id="@+id/about_me_text_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:fontFamily="monospace"
+        android:text="@string/about_me_text_end"
+        android:layout_below="@id/about_me_text_p3"/>
+
+</android.widget.RelativeLayout>
+
+</ScrollView>
