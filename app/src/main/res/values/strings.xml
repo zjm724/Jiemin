@@ -16,4 +16,23 @@
     <string name="about_me_text_p2">I have a bachelor degree in CS and a Master degree in ECE in Michigan. I was both TA and RA during my graduate school time.</string>
     <string name="about_me_text_p3">I am master in C and Java, especially Android. Familiar with whole mobile app development process, app structure and details to implement functionalities.</string>
     <string name="about_me_text_end">Again, welcome to my mobile app and you can swipe on the left edge or click icon on left-top corner to check those subsections for details.</string>
+
+    <!--    Texts of android project     -->
+
+    <string name="title_android_project">Software Development in Android: Personal Portfolio, online ChatApp and 2D Shooting Game</string>
+    <string name="content_android_project">These projects are to use Android studio v2.3.3 to do the Java coding and Node.js, JSON, HTTP to provide network server access.
+\n •	Understood Android Architecture including Linus Kernel, Libraries, Android Application Framework and top of them is application.
+\n •	Used Activities to program and Intent to initiate activities. Change colors, styles, themes by modifying xml file and using Drawable or Canvas to achieve graphics design.
+\n •	Used SurfaceView class for graphics and RecyclerView to save hardware resources. AsyncTask is also used for multi-thread processing to achieve smoother UI.
+\n •	MediaPlayer class is used for background music and SoundPool class for sound effects in shooting game.
+\n •	Used Node.js to set up server, and JSON string and HTTP protocol to achieve network communication. Granted permissions in Manifest file and Android Connectivity Manager class is used for networking.
+\n •	HTTPURLConnection is used on client-end and Picasso library is used to Asynchronous images from server.</string>
+
+    <!--    Texts of HTML5 project     -->
+
+    <string name="title_HTML5_project">Website designs: Recipes, High-school website and Online Bookstore</string>
+    <string name="content_HTML5_project">\n •	Hand on Intel XDK and Adobe software Dreamweaver, used HTML language to design a website and used CSS to add styles to webpages
+\n •	In high school website, achieved main webpage and multiple sub-pages including high school history, introduction, activities, photos and contact us pages.</string>
+
+
 </resources>
