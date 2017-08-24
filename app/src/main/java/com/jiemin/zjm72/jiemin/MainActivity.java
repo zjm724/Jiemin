@@ -151,6 +151,28 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_educations) {
 
+            // Handle click "projects" action
+
+            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+            toolbar.setTitle("Educations");
+
+
+
+            // Create a new fragment and specify the planet to show based on position
+            fragmentClass = fragment_education.class;
+            try {
+                fragment = (Fragment) fragmentClass.newInstance();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+            // Insert the fragment by replacing any existing fragment
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+
+            // Highlight the selected item, update the title, and close the drawer
+
         } else if (id == R.id.nav_technical_skills) {
 
         } else if (id == R.id.nav_just_for_fun) {
